@@ -173,8 +173,9 @@
     display:flex;
 }
 .footer-left{
-    width:40%;
-    margin-right:200px;
+    width:60%;
+    margin-right:100px;
+    margin-left:200px;
 }
 .left-footer-title{
     color:#F8F8F8;
@@ -212,7 +213,7 @@
 }
 /*design right footer*/
 .footer-right{
-    width:60%;
+    width:40%;
 }
 .right-footer-title{
     color:#ffffff;
@@ -222,7 +223,7 @@
 }
 .email{
     font-size:18px;
-    color:color:#F3F3F3;
+    color:#F3F3F3;
     font-weight:400;
     border-radius:5px;
     padding:10px 6px;
