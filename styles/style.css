@@ -92,3 +92,38 @@
     color:#16D887;
 }
 /*End failure section area*/
+
+/*Start my plans styles*/
+#my-plan{
+    margin:50px 80px;
+}
+.my-plan-title{
+    text-align:center;
+    color:#151414;
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:50px;
+}
+/*my plan title design done*/
+.my-plans-wraper{
+    display:flex;
+    justify-content:space-around;
+}
+.my-plans img{
+    display:block;
+    margin:0px auto;
+}
+.my-plans h3{
+   text-align:center;
+   font-size:30px;
+   color:#151414;
+   font-weight:700;
+   margin:15px 0px;
+}
+.my-plans p{
+    text-align:center;
+    font-size:25px;
+    font-weight:500;
+    color:#737272;
+}
+/*my plans section design complete*/
