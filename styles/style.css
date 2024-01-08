@@ -4,7 +4,7 @@
     padding:0px;
 }
 /* font-style*/
- .font-family{
+ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -12,3 +12,31 @@
  }
 
 /*common style*/
+
+/*style for header section*/
+#header{
+    background-image:url("../images/banner/banner1.png");
+    background-repeat:no-repeat;
+    padding:350px 100px;
+    padding-bottom:400px;
+}
+
+.header-content-area{
+    width:500px;
+    height:auto;
+    display:block;
+    float:right;
+}
+.banner-title{
+    text-align:right;
+    font-size:60px;
+    font-weight:700;
+    color:#151414;
+}
+.banner-text{
+    text-align:right;
+    font-size:16px;
+    color:#444343;
+    line-height:26px;
+}
+/*End header style*/
