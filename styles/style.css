@@ -17,8 +17,8 @@
 #header{
     background-image:url("../images/banner/banner1.png");
     background-repeat:no-repeat;
-    padding:350px 100px;
-    padding-bottom:400px;
+    padding:250px 100px;
+    padding-bottom:450px;
 }
 
 .header-content-area{
@@ -39,4 +39,56 @@
     color:#444343;
     line-height:26px;
 }
+/*design header button*/
+.btn-primary{
+    float:right;
+    margin-top:50px;
+    color:#ffffff;
+    background:#F24822;
+    border:none;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:600;
+    padding:15px 20px;
+}
 /*End header style*/
+
+/*style for failure section*/
+#failure-section{
+    display:flex;
+    align-items:center;
+    margin:100px 80px;
+    
+}
+.failure-section-text{
+   margin-left:60px;  
+}
+.failure-title{
+    color:#151414;
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:24px;
+}
+.failure-text{
+    color:#444343;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+    margin-bottom:16px;
+}
+.failure-list{
+    list-style-type:none;
+}
+.failure-list a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    font-size:16px;
+    color:#444343;
+    font-weight:400;
+}
+/* design for favicon*/
+.fa-check{
+    color:#16D887;
+}
+/*End failure section area*/
