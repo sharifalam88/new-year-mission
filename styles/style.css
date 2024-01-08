@@ -51,6 +51,11 @@
     font-weight:600;
     padding:15px 20px;
 }
+/*button hover effect*/
+.btn-primary:hover{
+    background:#dddddd;
+    color:red;
+}
 /*End header style*/
 
 /*style for failure section*/
@@ -127,3 +132,117 @@
     color:#737272;
 }
 /*my plans section design complete*/
+
+/*Style for positive mindset section*/
+#positive{
+    margin:50px 80px;
+    background-image:url("../images/watch.png");
+    background-repeat:no-repeat;
+    padding:100px 0px;
+
+}
+.positive-inner{
+    padding-left:60px;
+   
+}
+.positive-inner-title{
+    color:#ffffff;
+    font-weight:700;
+    font-size:40px;
+    margin-bottom:20px;
+}
+.btn-positive{
+    font-size:20px;
+    color:#F15B22;
+    font-weight:600;
+    background:#ffffff;
+    border:none;
+    padding:15px 20px;
+    text-align:center;
+    border-radius:5px;
+}
+.btn-positive:hover{
+    background:#F15B22;
+    color:#ffffff;
+    cursor:pointer;
+}
+/*style for footer section*/
+#footer{
+    background:#151414;
+    padding:80px 80px;
+    display:flex;
+}
+.footer-left{
+    width:40%;
+    margin-right:200px;
+}
+.left-footer-title{
+    color:#F8F8F8;
+    font-weight:700;
+    font-size:45px;
+    margin-bottom:15px;
+}
+.left-footer-text{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:400;
+    line-height:24px;
+    margin-bottom:12px;
+}
+/*design social icon*/
+.social-icon{
+    list-style-type:none;
+}
+.social-icon li{
+    display:inline-block;
+    float:left;
+}
+.social-icon li a{
+    font-size:35px;
+    padding:10px 8px;
+}
+.fa-facebook{
+    color:#006AFF;
+}
+.fa-twitter{
+    color:#1DA1F2;
+}
+.fa-youtube{
+    color:#FF0000;
+}
+/*design right footer*/
+.footer-right{
+    width:60%;
+}
+.right-footer-title{
+    color:#ffffff;
+    font-size:25px;
+    font-weight:600;
+    margin:15px 0px;
+}
+.email{
+    font-size:18px;
+    color:color:#F3F3F3;
+    font-weight:400;
+    border-radius:5px;
+    padding:10px 6px;
+    border:none;
+    margin-bottom:20px;
+}
+/*footer button design*/
+.btn-right-footer{
+    color:#F15B22;
+    background:#ffffff;
+    font-size:20px;
+    font-weight:600;
+    font-family:inter;
+    border:none;
+    border-radius:5px;
+    padding:20px 30px;
+    cursor:pointer;
+}
+/*footer button hover effect*/
+.btn-right-footer:hover{
+    background:#F15B22;
+    color:#ffffff;
+}
