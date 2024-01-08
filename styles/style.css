@@ -1,0 +1,14 @@
+/* star styling */
+*{
+    margin:0px;
+    padding:0px;
+}
+/* font-style*/
+ .font-family{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+/*common style*/
