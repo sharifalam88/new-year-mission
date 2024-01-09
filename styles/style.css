@@ -138,12 +138,19 @@
     margin:50px 80px;
     background-image:url("../images/watch.png");
     background-repeat:no-repeat;
-    padding:100px 0px;
-
+    padding:150px 0px;
+    position:relative;
 }
 .positive-inner{
-    padding-left:60px;
-   
+    background-image:url('../images/gradient2.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:60px ;
 }
 .positive-inner-title{
     color:#ffffff;
